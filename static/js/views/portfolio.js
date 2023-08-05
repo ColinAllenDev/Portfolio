@@ -1,7 +1,16 @@
 import "../components/DataContainer.js";
 
 export default () => `
-    <style> 
+    <style>
+        @keyframes slideInFromRight {
+            0% {
+                transform: translateX(20%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }   
+
         #page-title {
             font-size: 42pt;
             margin: 0;
@@ -24,6 +33,7 @@ export default () => `
             display: flex;
             height: 35%;
             width: 100%;
+            border-radius: 5px;
             margin-top: 1%;
             margin-bottom: 1%;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -35,9 +45,11 @@ export default () => `
         }
 
         data-container > img {
-            margin: 1%;
+            margin-right: 2.5%;
+            margin-top: auto;
+            margin-bottom: auto;
             max-width: 50%;
-            max-height: 100%;
+            max-height: 50%;
         }
     </style>
 
