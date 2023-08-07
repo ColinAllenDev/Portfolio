@@ -1,8 +1,98 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url(/static/fonts/coolvetica\ rg.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(/static/fonts/coolvetica\ rg\ it.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(/static/fonts/coolvetica\ condensed\ rg.otf);
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(/static/fonts/coolvetica\ crammed\ rg.otf);
+    font-stretch: extra-condensed;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */ 
+@media only screen and (min-width: 600px) {
+
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #sidebar_title {
+        font-size: 1.8em;
+    }
+
+    #sidebar_tagline {
+        font-size: 1.0em;
+    }
+
+    #sidebar_bio {
+        font-size: 1.0em;
+    }
+
+    #sidebar_link {
+        font-size: 1.5em;
+    }
+}
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #sidebar_title {
+        font-size: 2.5em;
+    }
+
+    #sidebar_tagline {
+        font-size: 1.5em;
+    }
+
+    #sidebar_bio {
+        font-size: 1.25em;
+    }
+
+    #sidebar_link {
+        font-size: 3em;
+    }
+}
+ 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #sidebar_title {
+        font-size: 3.35em;
+    }
+
+    #sidebar_tagline {
+        font-size: 1.5em;
+    }
+
+    #sidebar_bio {
+        font-size: 1.25em;
+    }
+
+    #sidebar_link {
+        font-size: 3em;
+    }
+} 
+
 body {
+    font-family: Coolvetica;
     --nav-width: 20%;
     margin: 0 0 0 var(--nav-width);
-    font-family: 'Coolvetica';
-    font-size: 18px;
 }
 
 #app {
@@ -25,23 +115,20 @@ body {
 
 #sidebar_title {
     color: #333333ff;
-    font-size: 40pt;
     line-height: 85%;
     margin: 2% 5% 0% 5%;
 }
 
 #sidebar_tagline {
     color: #666666ff;
-    font-size: 18pt;
-    font-weight: 600;
+    font-weight: bold;
     font-style: italic;
     padding: 0 0 0 0;
     margin: 1% 5% 2% 5%;
 }
 
 #sidebar_bio {
-    font-size: 18pt;
-    font-weight: 100;
+    font-weight: normal;
     font-stretch: condensed;
     line-height: 1.05;
     color: #808080ff;
@@ -49,7 +136,7 @@ body {
 }
 
 #sidebar_divider {
-    margin: 2.5% 10% 2.5% 5%;
+    margin-left: 1.0em;
     border-top: 1px solid #c7c7c7;
     border-bottom: 0px;
 }
@@ -64,7 +151,6 @@ body {
     margin: 0% 5% 0% 5%;
     text-decoration: none;
     color: #333333ff;
-    font-size: 36pt;
     transition: color 0.25s;
 }
 
