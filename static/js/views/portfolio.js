@@ -2,6 +2,13 @@ import "../components/DataContainer.js";
 
 export default () => `
     <style>
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            data-container > img {
+                display: none;
+            }
+        }
+
         @keyframes slideInFromRight {
             0% {
                 transform: translateX(20%);
@@ -48,14 +55,14 @@ export default () => `
             margin-right: 2.5%;
             margin-top: auto;
             margin-bottom: auto;
-            max-width: 50%;
-            max-height: 50%;
+            max-width: 100%;
+            max-height: 65%;
         }
     </style>
 
     <h1 id="page-title">Portfolio</h1>
 
-    <p id="page-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+    <p id="page-desc">Below are projects developed during my time working professionally, enrolled in university, and learning at home. </p>
 
     <div class="page-data">
         <data-container src="/static/html/Sample.html" banner="/static/img/snoop.jpeg"></data-container>
