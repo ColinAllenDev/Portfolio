@@ -15,8 +15,7 @@ class DataContainer extends HTMLElement {
         let banner = this.getAttribute('banner') || "/static/img/snoop.jpeg";
 
         getFile(src).then(data => {
-
-            this.innerHTML += "<div class=data>" + data + "</div>";
+            this.innerHTML += "<div class=data>" + data + "</div>"
             this.innerHTML += "<img src=" + banner + "></img>"             
         })
 
@@ -57,6 +56,10 @@ class DataContainer extends HTMLElement {
                     margin-top: 0%;
                     margin-left: 2%;
                     color: #333333ff;
+                }
+
+                .links {
+                    
                 }
             </style>
         `;

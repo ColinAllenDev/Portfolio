@@ -52,11 +52,12 @@ export default () => `
         }
 
         data-container > img {
+            margin-left: 2.5%;
             margin-right: 2.5%;
             margin-top: auto;
             margin-bottom: auto;
-            max-width: 100%;
-            max-height: 65%;
+            width: 50%;
+            height: auto;
         }
     </style>
 
@@ -65,8 +66,8 @@ export default () => `
     <p id="page-desc">Below are projects developed during my time working professionally, enrolled in university, and learning at home. </p>
 
     <div class="page-data">
-        <data-container src="/static/html/Sample.html" banner="/static/img/snoop.jpeg"></data-container>
-        <data-container src="/static/html/Sample.html" banner="/static/img/snoop.jpeg"></data-container>
-        <data-container src="/static/html/Sample.html" banner="/static/img/snoop.jpeg"></data-container>    
+        <data-container src="/static/html/VectorLab.html" banner="/static/img/p_vectorlab.jpg"></data-container>
+        <data-container src="/static/html/VolleyBird.html" banner="/static/img/p_volleybird.png"></data-container>
+        <data-container src="/static/html/Unreal Sandbox.html" banner="/static/img/p_unreal.png"></data-container>    
     </div>
 `;
