@@ -16,7 +16,7 @@ export default () => `
             100% {
                 transform: translateX(0);
             }
-        }   
+        }
 
         #page-title {
             font-size: 42pt;
