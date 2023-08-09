@@ -16,12 +16,6 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Install Zola
-        run: sudo snap install zola --edge
-
-      - name: Build the website
-        run: zola build
-
       - name: Scan the host key
         run: mkdir -p ~/.ssh/ && ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
