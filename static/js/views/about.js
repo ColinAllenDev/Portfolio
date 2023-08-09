@@ -29,7 +29,7 @@ export default () => `
         }
         
     </style>
-    <img id="about-img" src="/static/img/sidebar_image.png"></img>
+    <img id="about-img" src="static/img/sidebar_image.png"></img>
     <h1>About Me</h1>
     <h2> Hey There! </h2>
     <p> My name's Colin and I love every aspect of game development, computer science, and writing code.

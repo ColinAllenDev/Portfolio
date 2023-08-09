@@ -66,8 +66,8 @@ export default () => `
     <p id="page-desc">Below are projects developed during my time working professionally, enrolled in university, and learning at home. </p>
 
     <div class="page-data">
-        <data-container src="/static/html/VectorLab.html" banner="/static/img/p_vectorlab.jpg"></data-container>
-        <data-container src="/static/html/VolleyBird.html" banner="/static/img/p_volleybird.png"></data-container>
-        <data-container src="/static/html/Unreal Sandbox.html" banner="/static/img/p_unreal.png"></data-container>    
+        <data-container src="static/html/VectorLab.html" banner="/static/img/p_vectorlab.jpg"></data-container>
+        <data-container src="static/html/VolleyBird.html" banner="/static/img/p_volleybird.png"></data-container>
+        <data-container src="static/html/Unreal Sandbox.html" banner="/static/img/p_unreal.png"></data-container>    
     </div>
 `;

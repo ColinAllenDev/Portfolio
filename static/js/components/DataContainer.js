@@ -12,7 +12,7 @@ async function getFile(src) {
 class DataContainer extends HTMLElement {    
     connectedCallback() {
         let src = this.getAttribute('src') || undefined;
-        let banner = this.getAttribute('banner') || "/static/img/snoop.jpeg";
+        let banner = this.getAttribute('banner');
 
         getFile(src).then(data => {
             this.innerHTML += "<div class=data>" + data + "</div>"
