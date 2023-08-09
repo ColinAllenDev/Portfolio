@@ -6,33 +6,40 @@ export default () => `
             height: 300px;
             margin: 2.5%;
         }
+
+        h1 {
+            font-size: 42pt;
+            margin: 0;
+            color: #333333ff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333333ff;
+        }
+        
         p {
+            margin-top: 0;
             font-size: 1.4em;
             font-weight: normal;
             font-stretch: condensed;
             line-height: 1.05;
-            color: #333333ff;
+            color: #545454;
         }
-        h3 {
-            margin: 0;
-        }
+        
     </style>
     <img id="about-img" src="/static/img/sidebar_image.png"></img>
     <h1>About Me</h1>
-    <h3> Hey There! </h3>
+    <h2> Hey There! </h2>
     <p> My name's Colin and I love every aspect of game development, computer science, and writing code.
-        I hope you'll excuse  my forwardness, but I <b>need a job.</b> Don't get me wrong, the bills are still getting paid
-        and I'm loving spending my time away from the office constanly learning, growing my skills, and forging a path towards
-        my passion of working on games, but like any other fresh faced new grads, I'm desperate and motivated to begin my career
+        Not to be blunt, but I <b>need a job.</b> Don't get me wrong, I've been enjoying spending my time away from the office constanly learning, growing my skills, and forging a path towards
+        my passion of working on games, but like any other new grads, I'm desperate and motivated to begin my career
         at a company where I can continue to grow forward in my passions while bringing the absolute best work, attitude and character
         I can with me along the way. 
         (If you might be that company, feel free to <a href=colinallen.work@gmail.com>reach out!</a>)
-    </p><p>
-        I grew up in an Atlanta suburb and throughout my childhood had an inate desire to learn how to word around me worked. I was curious
-        to explore the inner machinisms of my toys and electronics and gained a sense of wonder at how the gears, plastic and wires came together
-        almost magically to make this little thing that could bring so much joy.
     </p><p>    
-        This fascination changed it's focus towards computers. Specifically, in the realm of computer games. From the moment I played my first,
+        My interest in programming started within the realm of computer games. From the moment I played my first,
         I knew I wanted to make them. Back then, we didn't have popular, commercial game engines to use, so you had to do what you could. I remember
         my first game was made in PowerPoint on my dad's work computer using corporate logos as sprites and slides as each individual stage.
     </p><p>
