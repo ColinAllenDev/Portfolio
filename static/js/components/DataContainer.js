@@ -23,7 +23,7 @@ class DataContainer extends HTMLElement {
             <style>
                 /* Extra small devices (phones, 600px and down) */
                 @media only screen and (max-width: 600px) {
-                    .data h1 {
+                    .data a {
                         font-size: 1.8em;
                     }
 
@@ -32,6 +32,34 @@ class DataContainer extends HTMLElement {
                     }
                 }
 
+                /* Small devices (portrait tablets and large phones, 600px and up) */ 
+                @media only screen and (min-width: 600px) {
+                    .data a {
+                        font-size: 1.8em;
+                    }
+                }
+                
+                /* Medium devices (landscape tablets, 768px and up) */
+                @media only screen and (min-width: 768px) {
+                    .data a {
+                        font-size: 1.8em;
+                    }
+                }
+                
+                /* Large devices (laptops/desktops, 992px and up) */
+                @media only screen and (min-width: 992px) {
+                    .data a {
+                        font-size: 1.8em;
+                    }
+                }
+                
+                /* Extra large devices (large laptops and desktops, 1200px and up) */
+                @media only screen and (min-width: 1200px) {
+                    .data a {
+                        font-size: 1.8em;
+                    }
+                } 
+                
                 .data {
                     overflow: scroll;
                     margin: 1%;
@@ -45,21 +73,24 @@ class DataContainer extends HTMLElement {
                     display: none;
                 }
 
-                .data h1 {
+                .data a {
+                    text-decoration: none;
+                    color: #333333ff;
                     margin-left: 2%;
                     margin-top: 0%;
                     margin-bottom: 0%;
                     color: #333333ff;
+                    transition: color 0.25s;
                 }
 
+                .data a:hover {
+                    color: #c7c7c7;
+                }
+                
                 .data p {
                     margin-top: 0%;
                     margin-left: 2%;
                     color: #333333ff;
-                }
-
-                .links {
-                    
                 }
             </style>
         `;

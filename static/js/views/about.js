@@ -1,5 +1,5 @@
 export default () => `
-    <style>
+        <style>
         #about-img {
             float: right;
             width: 300px;
@@ -33,7 +33,7 @@ export default () => `
     <h1>About Me</h1>
     <h2> Hey There! </h2>
     <p> My name's Colin and I love every aspect of game development, computer science, and writing code.
-        Not to be blunt, but I <b>need a job.</b> Don't get me wrong, I've been enjoying spending my time away from the office constanly learning, growing my skills, and forging a path towards
+        I recently graduated with my Bachelor's of Computer Science from Kennesaw State University and <b>I'm looking for work!</b> I've been enjoying spending my time away from the office constanly learning, growing my skills, and forging a path towards
         my passion of working on games, but like any other new grads, I'm desperate and motivated to begin my career
         at a company where I can continue to grow forward in my passions while bringing the absolute best work, attitude and character
         I can with me along the way. 
