@@ -34,11 +34,9 @@ export default () => `
     <h1>About Me</h1>
     <h2> Hey There! </h2>
     <p> My name's Colin and I love every aspect of game development, computer science, and writing code.
-        I recently graduated with my Bachelor's of Computer Science from Kennesaw State University and <b>I'm looking for work!</b> I've been enjoying spending my time away from the office constantly learning, growing my skills, and forging a path towards
-        my passion of working on games, but like any other new grads, I'm desperate and motivated to begin my career
-        at a company where I can continue to grow forward in my passions while bringing the absolute best work, attitude and character
-        I can with me along the way. 
-        (If you might be that company, feel free to <a href=colinallen.work@gmail.com>reach out!</a>)
+        I recently graduated with my Bachelor's of Computer Science from Kennesaw State University and I've been enjoying spending my time away from the office constantly learning, growing my skills, and forging a path towards
+        my passion of working on games, but like any other new grads, I'm motivated to begin my career at a company where I can continue to grow forward in my passions while bringing the absolute best work, attitude and character
+        I can with me along the way. (If you might be that company, feel free to <a href=colinallen.work@gmail.com>reach out!</a>)
     </p><p>    
         My interest in programming started within the realm of computer games. From the moment I played my first,
         I knew I wanted to make them. Back then, we didn't have popular, commercial game engines to use, so you had to do what you could. I remember
