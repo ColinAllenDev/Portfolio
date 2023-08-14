@@ -34,7 +34,7 @@ export default () => `
     <h1>About Me</h1>
     <h2> Hey There! </h2>
     <p> My name's Colin and I love every aspect of game development, computer science, and writing code.
-        I recently graduated with my Bachelor's of Computer Science from Kennesaw State University and <b>I'm looking for work!</b> I've been enjoying spending my time away from the office constanly learning, growing my skills, and forging a path towards
+        I recently graduated with my Bachelor's of Computer Science from Kennesaw State University and <b>I'm looking for work!</b> I've been enjoying spending my time away from the office constantly learning, growing my skills, and forging a path towards
         my passion of working on games, but like any other new grads, I'm desperate and motivated to begin my career
         at a company where I can continue to grow forward in my passions while bringing the absolute best work, attitude and character
         I can with me along the way. 
@@ -53,7 +53,7 @@ export default () => `
         and experience I've been gaining while developing this engine is very important to me as it will allow me to acquire better foundational knowledge on the
         programs and games I dream to one day create.
     </p><p>
-        If you've read this far, thank you. It's been a long road getting here and I couldn't be more thankful to have the opprotunity to share where I'm at with you.
+        If you've read this far, thank you. It's been a long road getting here and I couldn't be more thankful to have the opportunity to share where I'm at with you.
         If you would like to reach out for any reason, please feel free to do so <a href=colinallen.work@gmail.com>here.</a>
     </p>
 `;
