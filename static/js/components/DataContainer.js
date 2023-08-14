@@ -19,6 +19,7 @@ class DataContainer extends HTMLElement {
             this.innerHTML += "<img src=" + banner + "></img>"             
         })
 
+        // InnerHTML
         this.innerHTML += `
             <style>
                 /* Extra small devices (phones, 600px and down) */
